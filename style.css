@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Oswald", sans-serif;
+  
 }
 body{
   background-color: #181818;
@@ -60,3 +61,29 @@ body{
 
 /* top bar styling end */
 /* navbar styling start */
+#navbar{
+  height: 100px;
+  width: 100%;
+  border-bottom: 1px solid #f57931;
+  display: flex;
+  align-items: center;
+  padding: 0 60px;
+  justify-content: space-between;
+   
+}
+.navbar-logo img{
+ width: 20%;
+}
+#navbar ul{
+  list-style: none;
+  display: flex;
+}
+#navbar ul li{
+  margin: 0 20px;
+}
+#navbar a{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
