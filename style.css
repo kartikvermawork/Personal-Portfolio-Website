@@ -39,6 +39,11 @@ body{
   letter-spacing: 1px;
   margin: 0 10px;
   font-size: 15px;
+  transition: .3s ease;
+  cursor: pointer;
+}
+.left-section-topbar p:hover{
+  color: #f57931;
 }
 .right-section-topbar{
   width: 30%;
@@ -52,6 +57,11 @@ body{
   color: white;
   margin: 0 10px;
   font-size: 15px;
+  transition: .3s ease;
+  cursor: pointer;
+}
+.right-section-topbar p:hover{
+  color: #f57931;
 }
 .right-section-topbar .midline p{
   color:#f57931;
@@ -69,10 +79,11 @@ body{
   align-items: center;
   padding: 0 60px;
   justify-content: space-between;
-   
+  position: relative;  
+  /* relative use for make parent of animation tag */
 }
 .navbar-logo img{
- width: 20%;
+ width: 90%;
 }
 #navbar ul{
   list-style: none;
@@ -81,9 +92,38 @@ body{
 #navbar ul li{
   margin: 0 20px;
 }
-#navbar a{
+#navbar ul li a{
   text-decoration: none;
   color: white;
   font-size: 18px;
   letter-spacing: 1px;
 }
+#navbar ul li a::before{
+  /* before is pesudo element use for giving line animation below the li a */
+  content: "";
+  width: 0px;
+  height: 2px;
+  background-color: #f57931;
+  position: absolute;
+  /* postion property use for give correct position to lines */
+  bottom: 30%;
+  /* bottom: 0%; */
+  transition: .3s ease;
+  /* transition is use for smooth animation  */
+}
+#navbar ul li:nth-child(1) a:hover::before{
+  width: 70px;
+}
+/* nth child property use for select particular element 
+hover is use for animation property */
+#navbar ul li:nth-child(2) a:hover::before{
+  width: 50px;
+}
+#navbar ul li:nth-child(3) a:hover::before{
+  width: 75px;
+}
+#navbar ul li:nth-child(4) a:hover::before{
+  width: 70px;
+}
+/* navbar styling done */
+/* herobox styling start */
