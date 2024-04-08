@@ -20,6 +20,8 @@ body{
   padding: 0 60px;
   /* border-color:white ; 
   border-style: solid; */
+  position: relative;
+  z-index:2;
 } 
 .left-section-topbar{
   width: 30%;
@@ -80,7 +82,9 @@ body{
   padding: 0 60px;
   justify-content: space-between;
   position: relative;  
+
   /* relative use for make parent of animation tag */
+  z-index: 2;
 }
 .navbar-logo img{
  width: 90%;
@@ -127,3 +131,146 @@ hover is use for animation property */
 }
 /* navbar styling done */
 /* herobox styling start */
+#herobox {
+  width: 100%;
+  height: 100vh;
+  background-color: #181818;
+  background: url(/asset/background\ image.jpg);
+  margin-top: -140px;
+  overflow: hidden;
+  position: relative;
+}
+#herobox::before{
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #1b1b1bf6;
+  position: absolute;
+}
+#herobox .circle{
+  width: 600px;
+  height: 600px;
+  background-color: #f57931;
+  border: 2px solid white;
+  position: absolute;
+  border-radius: 50%;
+  top: 55%;
+  right: 3%;
+}
+#herobox img{
+  position: absolute;
+  width: 40%;
+  right: 3%;
+  top: 30%
+}
+#herobox h1{
+  position: absolute;
+  color: white;
+  font-size: 80px;
+  width: 50%;
+  top: 30%;
+  left: 3%;
+  line-height: 100px;
+}
+#herobox p{
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: 300;
+  top: 70%;
+  left: 3%;
+  letter-spacing: 2px;
+}
+#herobox a{
+  display: inline-block;
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  top: 78%;
+  left: 3%;
+  text-decoration: none;
+  color: #f57931;
+  border: 2px solid white;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 22px;
+  font-weight: 600;
+  padding-top: 5px;
+  transition: .3s ease;
+  letter-spacing: 2px;
+}
+#herobox a:hover{
+  background-color: #f57931;
+  color: white;
+  border: 2px #f57931;
+}
+#herobox .icons-group{
+  width: 150px;
+  height: 50px;
+  /* border: 1px solid red; */
+  position: absolute;
+  bottom: 3%;
+  left: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 5px; */
+}
+#herobox .icons-group i{
+  color: #f57931;
+  /* align-items: center; */
+}
+#herobox .icons-group .icon-1{
+  width: 35px;
+  height: 35px;
+  border: 2px solid white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .3s ease;
+  cursor: pointer;
+}
+#herobox .icons-group .icon-1:hover{
+  background-color: #f57931;
+  border: 2px solid #f57931;
+}
+#herobox .icons-group .icon-1:hover i{
+  color: white;
+}
+#herobox .icons-group .icon-2{
+  width: 35px;
+  height: 35px;
+  border: 2px solid white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .3s ease;
+  cursor: pointer;
+}
+#herobox .icons-group .icon-2:hover{
+  background-color: #f57931;
+  border: 2px solid #f57931;
+}
+#herobox .icons-group .icon-2:hover i{
+  color: white;
+}
+#herobox .icons-group .icon-3{
+  width: 35px;
+  height: 35px;
+  border: 2px solid white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .3s ease;
+  cursor: pointer;
+}
+#herobox .icons-group .icon-3:hover{
+  background-color: #f57931;
+  border: 2px solid #f57931;
+}
+#herobox .icons-group .icon-3:hover i{
+  color: white;
+}
