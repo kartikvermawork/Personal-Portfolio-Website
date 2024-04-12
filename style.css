@@ -651,3 +651,739 @@ hover is use for animation property */
   color: #f57931;
   border-bottom: 1px solid white;
 }
+/* portfolio section styling  */
+
+#gd-section{
+  width: 100%;
+  height: 100vh;
+  /* background-color: #181818; */
+  background-image: url(/asset/background\ image.jpg);
+  position: relative;
+
+}
+#gd-section::before{
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #181818f6;
+  position: absolute;
+}
+.showing-button{
+  width: 400px;
+  height: 90px;
+  border: 1px white solid;
+  border-radius: 50px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-left: none;
+  position: absolute;
+  top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.showing-button h2{
+  color: #f57931;
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  /* border-bottom: 2px solid #f57931; */
+}
+.gallary{
+  width: 95%;
+  height: 420px;
+  border: 2px solid #f57931;
+  position: absolute;
+  bottom: 12%;
+  left: 2.5%;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  overflow: hidden;
+  padding: 20px;
+}
+.row{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.row .card-1{
+  width: 24%;
+  height: 100%;
+  border: 1px solid black;
+  overflow: hidden;
+  cursor: pointer;
+}
+.row .card-1::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5326505602240896) 91%);
+    position: absolute;
+    z-index: 2;
+}
+.row .card-1:hover img{
+  transform: scale(1.1);
+}
+.row .card-1 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: .3s ease;
+}
+.row .card-2{
+  width: 24%;
+  height: 100%;
+  border: 1px solid black;
+  overflow: hidden;
+  cursor: pointer;
+}
+.row .card-2::before{
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgb(0,0,0);
+  background: radial-gradient(circle, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5326505602240896) 91%);
+  position: absolute;
+  z-index: 2;
+}
+.row .card-2:hover img{
+transform: scale(1.1);
+}
+
+.row .card-2 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: .3s ease;
+}
+.row .card-3{
+  width: 24%;
+  height: 100%;
+  border: 1px solid black;
+  overflow: hidden;
+  cursor: pointer;
+}
+.row .card-3::before{
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgb(0,0,0);
+  background: radial-gradient(circle, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5326505602240896) 91%);
+  position: absolute;
+  z-index: 2;
+}
+.row .card-3:hover img{
+transform: scale(1.1);
+}
+.row .card-3 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: .3s ease;
+}
+.row .card-4{
+  width: 24%;
+  height: 100%;
+  border: 1px solid black;
+  overflow: hidden;
+  cursor: pointer;
+}
+.row .card-4::before{
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgb(0,0,0);
+  background: radial-gradient(circle, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5326505602240896) 91%);
+  position: absolute;
+  z-index: 2;
+}
+.row .card-4:hover img{
+transform: scale(1.1);
+}
+.row .card-4 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: .3s ease;
+}
+#gd-section a{
+  display: inline-block;
+  width: 180px;
+  height: 50px;
+  text-decoration: none;
+  color: white;
+  background-color: #f57931;
+  border-radius: 50px;
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  padding-top: 5px;
+  transition: .3s ease;
+  border: 2px solid transparent;
+}
+#gd-section a:hover{
+  background-color: transparent;
+  border: 2px solid #f57931;
+}
+/* website design section styling start  */
+
+#wd-section{
+  width: 100%;
+  height: 100vh;
+  /* background-color: #181818; */
+  background-image: url(/asset/background\ image.jpg);
+  position: relative;
+}
+#wd-section::before{
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #181818f6;
+  position: absolute;
+}
+.showing-button{
+  width: 400px;
+  height: 90px;
+  border: 1px white solid;
+  border-radius: 50px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-left: none;
+  position: absolute;
+  top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.showing-button h2{
+  color: #f57931;
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  /* border-bottom: 2px solid #f57931; */
+}
+.gallary{
+  width: 95%;
+  height: 420px;
+  border: 2px solid #f57931;
+  position: absolute;
+  bottom: 12%;
+  left: 2.5%;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  overflow: hidden;
+  padding: 20px;
+}
+.row{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.row .card-1{
+  width: 24%;
+  height: 100%;
+  border: 1px solid black;
+  overflow: hidden;
+  cursor: pointer;
+}
+.row .card-1::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5326505602240896) 91%);
+    position: absolute;
+    z-index: 2;
+}
+.row .card-1:hover img{
+  transform: scale(1.1);
+}
+.row .card-1 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: .3s ease;
+}
+.row .card-2{
+  width: 24%;
+  height: 100%;
+  border: 1px solid black;
+  overflow: hidden;
+  cursor: pointer;
+}
+.row .card-2::before{
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgb(0,0,0);
+  background: radial-gradient(circle, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5326505602240896) 91%);
+  position: absolute;
+  z-index: 2;
+}
+.row .card-2:hover img{
+transform: scale(1.1);
+}
+
+.row .card-2 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: .3s ease;
+}
+.row .card-3{
+  width: 24%;
+  height: 100%;
+  border: 1px solid black;
+  overflow: hidden;
+  cursor: pointer;
+}
+.row .card-3::before{
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgb(0,0,0);
+  background: radial-gradient(circle, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5326505602240896) 91%);
+  position: absolute;
+  z-index: 2;
+}
+.row .card-3:hover img{
+transform: scale(1.1);
+}
+.row .card-3 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: .3s ease;
+}
+.row .card-4{
+  width: 24%;
+  height: 100%;
+  border: 1px solid black;
+  overflow: hidden;
+  cursor: pointer;
+}
+.row .card-4::before{
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgb(0,0,0);
+  background: radial-gradient(circle, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5326505602240896) 91%);
+  position: absolute;
+  z-index: 2;
+}
+.row .card-4:hover img{
+transform: scale(1.1);
+}
+.row .card-4 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: .3s ease;
+}
+#wd-section a{
+  display: inline-block;
+  width: 180px;
+  height: 50px;
+  text-decoration: none;
+  color: white;
+  background-color: #f57931;
+  border-radius: 50px;
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  padding-top: 5px;
+  transition: .3s ease;
+  border: 2px solid transparent;
+}
+#wd-section a:hover{
+  background-color: transparent;
+  border: 2px solid #f57931;
+}
+/* video editing section styling  */
+#ve-section{
+  width: 100%;
+  height: 100vh;
+  /* background-color: #181818; */
+  background-image: url(/asset/background\ image.jpg);
+  position: relative;
+}
+#ve-section::before{
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #181818f6;
+  position: absolute;
+}
+.showing-button{
+  width: 400px;
+  height: 90px;
+  border: 1px white solid;
+  border-radius: 50px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-left: none;
+  position: absolute;
+  top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.showing-button h2{
+  color: #f57931;
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  /* border-bottom: 2px solid #f57931; */
+}
+.gallary{
+  width: 95%;
+  height: 420px;
+  border: 2px solid #f57931;
+  position: absolute;
+  bottom: 12%;
+  left: 2.5%;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  overflow: hidden;
+  padding: 20px;
+}
+.row{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.row .card-1{
+  width: 24%;
+  height: 100%;
+  border: 1px solid black;
+  overflow: hidden;
+  cursor: pointer;
+}
+.row .card-1::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5326505602240896) 91%);
+    position: absolute;
+    z-index: 2;
+}
+.row .card-1:hover img{
+  transform: scale(1.1);
+}
+.row .card-1 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: .3s ease;
+}
+.row .card-2{
+  width: 24%;
+  height: 100%;
+  border: 1px solid black;
+  overflow: hidden;
+  cursor: pointer;
+}
+.row .card-2::before{
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgb(0,0,0);
+  background: radial-gradient(circle, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5326505602240896) 91%);
+  position: absolute;
+  z-index: 2;
+}
+.row .card-2:hover img{
+transform: scale(1.1);
+}
+
+.row .card-2 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: .3s ease;
+}
+.row .card-3{
+  width: 24%;
+  height: 100%;
+  border: 1px solid black;
+  overflow: hidden;
+  cursor: pointer;
+}
+.row .card-3::before{
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgb(0,0,0);
+  background: radial-gradient(circle, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5326505602240896) 91%);
+  position: absolute;
+  z-index: 2;
+}
+.row .card-3:hover img{
+transform: scale(1.1);
+}
+.row .card-3 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: .3s ease;
+}
+.row .card-4{
+  width: 24%;
+  height: 100%;
+  border: 1px solid black;
+  overflow: hidden;
+  cursor: pointer;
+}
+.row .card-4::before{
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgb(0,0,0);
+  background: radial-gradient(circle, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5326505602240896) 91%);
+  position: absolute;
+  z-index: 2;
+}
+.row .card-4:hover img{
+transform: scale(1.1);
+}
+.row .card-4 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: .3s ease;
+}
+#ve-section a{
+  display: inline-block;
+  width: 180px;
+  height: 50px;
+  text-decoration: none;
+  color: white;
+  background-color: #f57931;
+  border-radius: 50px;
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  padding-top: 5px;
+  transition: .3s ease;
+  border: 2px solid transparent;
+}
+#ve-section a:hover{
+  background-color: transparent;
+  border: 2px solid #f57931;
+}
+
+/* WEBSITE DEV STYLING SECTION START  */
+#wdev-section{
+  width: 100%;
+  height: 100vh;
+  /* background-color: #181818; */
+  background-image: url(/asset/background\ image.jpg);
+  position: relative;
+}
+#wdev-section::before{
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #181818f6;
+  position: absolute;
+}
+#wdev-section .showing-button{
+  width: 480px;
+  height: 90px;
+  border: 1px white solid;
+  border-radius: 50px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-left: none;
+  position: absolute;
+  top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.showing-button h2{
+  color: #f57931;
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  /* border-bottom: 2px solid #f57931; */
+}
+.gallary{
+  width: 95%;
+  height: 420px;
+  border: 2px solid #f57931;
+  position: absolute;
+  bottom: 12%;
+  left: 2.5%;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  overflow: hidden;
+  padding: 20px;
+}
+.row{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.row .card-1{
+  width: 24%;
+  height: 100%;
+  border: 1px solid black;
+  overflow: hidden;
+  cursor: pointer;
+}
+.row .card-1::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5326505602240896) 91%);
+    position: absolute;
+    z-index: 2;
+}
+.row .card-1:hover img{
+  transform: scale(1.1);
+}
+.row .card-1 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: .3s ease;
+}
+.row .card-2{
+  width: 24%;
+  height: 100%;
+  border: 1px solid black;
+  overflow: hidden;
+  cursor: pointer;
+}
+.row .card-2::before{
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgb(0,0,0);
+  background: radial-gradient(circle, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5326505602240896) 91%);
+  position: absolute;
+  z-index: 2;
+}
+.row .card-2:hover img{
+transform: scale(1.1);
+}
+
+.row .card-2 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: .3s ease;
+}
+.row .card-3{
+  width: 24%;
+  height: 100%;
+  border: 1px solid black;
+  overflow: hidden;
+  cursor: pointer;
+}
+.row .card-3::before{
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgb(0,0,0);
+  background: radial-gradient(circle, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5326505602240896) 91%);
+  position: absolute;
+  z-index: 2;
+}
+.row .card-3:hover img{
+transform: scale(1.1);
+}
+.row .card-3 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: .3s ease;
+}
+.row .card-4{
+  width: 24%;
+  height: 100%;
+  border: 1px solid black;
+  overflow: hidden;
+  cursor: pointer;
+}
+.row .card-4::before{
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgb(0,0,0);
+  background: radial-gradient(circle, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5326505602240896) 91%);
+  position: absolute;
+  z-index: 2;
+}
+.row .card-4:hover img{
+transform: scale(1.1);
+}
+.row .card-4 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: .3s ease;
+}
+#wdev-section a{
+  display: inline-block;
+  width: 180px;
+  height: 50px;
+  text-decoration: none;
+  color: white;
+  background-color: #f57931;
+  border-radius: 50px;
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  padding-top: 5px;
+  transition: .3s ease;
+  border: 2px solid transparent;
+}
+#wdev-section a:hover{
+  background-color: transparent;
+  border: 2px solid #f57931;
+}
