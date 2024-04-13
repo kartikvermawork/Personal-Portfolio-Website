@@ -1387,3 +1387,202 @@ transform: scale(1.1);
   background-color: transparent;
   border: 2px solid #f57931;
 }
+
+
+/* Experience Section Styling start  */
+#experience-section{
+  width: 100%;
+  height: 220vh;
+  background-color: #181818;
+  position: relative;
+}
+#experience-section h1{
+  color: white;
+  font-size: 72px;
+  position: absolute;
+  left: 5%;
+  top: 5%;
+}
+.field-conatiner{
+  width: 90%;
+  height: 85%;
+  /* border: 2px solid red; */
+  position: absolute;
+  bottom: 0%;
+  left: 5%;
+  display: flex;
+}
+.line-circle-group{
+  width: 5px;
+  height: 95%;
+  background-color: white;
+  border-radius: 50px;
+  position: relative;
+}
+.circle-1{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #f57931;
+  border-radius: 50%;
+  left: -150%;
+  top: 10%;
+}
+.circle-2{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #f57931;
+  border-radius: 50%;
+  left: -150%;
+  top: 36%;
+}
+.circle-3{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #f57931;
+  border-radius: 50%;
+  left: -150%;
+  top: 62%;
+}
+.circle-4{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #f57931;
+  border-radius: 50%;
+  left: -150%;
+  top: 88%;
+}
+.gd-exp{
+  position: absolute;
+  width: 95%;
+  height: 280px;
+  border: 2px solid #f57931;
+  left: 2.5%;
+}
+.gd-exp p:nth-child(1){
+  position: absolute;
+  color: white;
+  top: 20%;
+  left: 3%;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.gd-exp h2{
+  color: white;
+  font-size: 62px;
+  position: absolute;
+  top: 25%;
+  left: 3%;
+}
+.gd-exp p:nth-child(3){
+  position: absolute;
+  color: white;
+  left: 3%;
+  bottom: 20%;
+  width: 80%;
+  text-align: justify;
+  font-size: 15px;
+}
+.wd-exp{
+  position: absolute;
+  width: 95%;
+  height: 280px;
+  border: 2px solid #f57931;
+  left: 2.5%;
+  top: 25%;
+}
+.wd-exp p:nth-child(1){
+  position: absolute;
+  color: white;
+  top: 20%;
+  left: 3%;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.wd-exp h2{
+  color: white;
+  font-size: 62px;
+  position: absolute;
+  top: 25%;
+  left: 3%;
+}
+.wd-exp p:nth-child(3){
+  position: absolute;
+  color: white;
+  left: 3%;
+  bottom: 20%;
+  width: 80%;
+  text-align: justify;
+  font-size: 15px;
+}
+.wdev-exp{
+  position: absolute;
+  width: 95%;
+  height: 280px;
+  border: 2px solid #f57931;
+  left: 2.5%;
+  top: 50%;
+}
+.wdev-exp p:nth-child(1){
+  position: absolute;
+  color: white;
+  top: 20%;
+  left: 3%;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.wdev-exp h2{
+  color: white;
+  font-size: 62px;
+  position: absolute;
+  top: 25%;
+  left: 3%;
+}
+.wdev-exp p:nth-child(3){
+  position: absolute;
+  color: white;
+  left: 3%;
+  bottom: 20%;
+  width: 80%;
+  text-align: justify;
+  font-size: 15px;
+}
+.ve-exp{
+  position: absolute;
+  width: 95%;
+  height: 280px;
+  border: 2px solid #f57931;
+  left: 2.5%;
+  top: 75%;
+}
+.ve-exp p:nth-child(1){
+  position: absolute;
+  color: white;
+  top: 20%;
+  left: 3%;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.ve-exp h2{
+  color: white;
+  font-size: 62px;
+  position: absolute;
+  top: 25%;
+  left: 3%;
+}
+.ve-exp p:nth-child(3){
+  position: absolute;
+  color: white;
+  left: 3%;
+  bottom: 20%;
+  width: 80%;
+  text-align: justify;
+  font-size: 15px;
+}
